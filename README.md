@@ -21,21 +21,21 @@ WebAppBridge — это инструмент для разработчиков T
 Скачайте файл web-app-bridge и запустите файл:
 ```bash
 # Windows
-.\web-app-bridge.exe --token YOUR_BOT_TOKEN --port 3000
+.\web-app-bridge.exe --token YOUR_BOT_TOKEN --port <PORT>
 
 # macOS (Intel)
 mv web-app-bridge-darwin-amd64 web-app-bridge
 chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port 3000
+./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
 
 # macOS (Apple Silicon/M1/M2)
 mv web-app-bridge-darwin-arm64 web-app-bridge
 chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port 3000
+./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
 
 # Linux
 chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port 3000
+./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
 ```
 
 <!-- Скачайте последнюю версию для вашей ОС:
