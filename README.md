@@ -16,6 +16,8 @@ WebAppBridge — это инструмент для разработчиков T
 
 Способ 1: Скачивание бинарного файла
 
+[скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/web-app-bridge)
+
 Скачайте файл web-app-bridge и запустите файл:
 ```bash
 # Windows
