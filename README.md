@@ -16,41 +16,30 @@ WebAppBridge — это инструмент для разработчиков T
 
 Способ 1: Скачивание бинарного файла
 
-[скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/web-app-bridge)
+[windows скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-windows.exe)
+[darwin-amd64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
+[darwin-arm64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
+[linux скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-linux)
 
 Скачайте файл web-app-bridge и запустите файл:
 ```bash
 # Windows
-.\web-app-bridge.exe --token YOUR_BOT_TOKEN --port <PORT>
+.\web-app-bridge-windows.exe --token YOUR_BOT_TOKEN --port <PORT>
 
 # macOS (Intel)
 mv web-app-bridge-darwin-amd64 web-app-bridge
 chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
+./web-app-bridge-darwin-amd64 --token YOUR_BOT_TOKEN --port <PORT>
 
 # macOS (Apple Silicon/M1/M2)
 mv web-app-bridge-darwin-arm64 web-app-bridge
 chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
+./webapp-bridge-darwin-arm64 --token YOUR_BOT_TOKEN --port <PORT>
 
 # Linux
-chmod +x web-app-bridge
-./web-app-bridge --token YOUR_BOT_TOKEN --port <PORT>
+chmod +x web-app-bridge-linux
+./webapp-bridge-linux --token YOUR_BOT_TOKEN --port <PORT>
 ```
-
-<!-- Скачайте последнюю версию для вашей ОС:
-```bash
-# Для Linux
-wget https://github.com/purkhanov/web-app-bridge/releases/latest/download/web-app-bridge-linux-amd64 -O web-app-bridge
-chmod +x web-app-bridge
-
-# Для macOS
-wget https://github.com/purkhanov/web-app-bridge/releases/latest/download/web-app-bridge-darwin-amd64 -O web-app-bridge
-chmod +x web-app-bridge
-
-# Для Windows
-curl -LO https://github.com/purkhanov/web-app-bridge/releases/latest/download/web-app-bridge-windows-amd64.exe
-``` -->
 
 Способ 2: Сборка из исходников
 ```bash
