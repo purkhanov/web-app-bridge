@@ -81,7 +81,7 @@ go build -o web-app-bridge
 * Пароль требуется только при первом посещении URL
 
 ## 📜 Лицензия
-MIT License. Подробнее см. в файле [LICENSE](https://img.shields.io/badge/license-MIT-green).
+MIT License. Подробнее см. в файле [LICENSE](https://github.com/purkhanov/web-app-bridge/blob/main/LICENSE).
 
 ## 🐛 Сообщения об ошибках
 Нашли баг? [Создайте issue](https://github.com/purkhanov/web-app-bridge/issues) на GitHub.
