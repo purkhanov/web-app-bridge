@@ -84,4 +84,4 @@ go build -o web-app-bridge
 MIT License. Подробнее см. в файле [LICENSE](https://img.shields.io/badge/license-MIT-green).
 
 ## 🐛 Сообщения об ошибках
-Нашли баг? [Создайте issue](https://github.com/username/webapp-bridge/issues) на GitHub.
+Нашли баг? [Создайте issue](https://github.com/purkhanov/webapp-bridge/issues) на GitHub.
