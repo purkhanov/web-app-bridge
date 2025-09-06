@@ -16,10 +16,13 @@ WebAppBridge — это инструмент для разработчиков T
 
 Способ 1: Скачивание бинарного файла
 
-[windows скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-windows.exe)
-[darwin-amd64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
+- **windows** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-windows.exe)
+
+- **MacOS** [darwin-amd64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
+
 [darwin-arm64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
-[linux скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-linux)
+
+- **Linux** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-linux)
 
 Скачайте файл web-app-bridge и запустите файл:
 ```bash
