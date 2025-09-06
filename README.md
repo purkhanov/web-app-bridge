@@ -18,10 +18,9 @@ WebAppBridge — это инструмент для разработчиков T
 
 - **windows** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-windows.exe)
 
-- **MacOS** 
-    darwin-amd64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
+- **MacOS** darwin-amd64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
 
-    darwin-arm64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
+ **MacOS** darwin-arm64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
 
 - **Linux** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-linux)
 
