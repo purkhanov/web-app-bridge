@@ -18,30 +18,30 @@ WebAppBridge — это инструмент для разработчиков T
 
 - **windows** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-windows.exe)
 
-- **MacOS** [darwin-amd64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
+- **MacOS** darwin-amd64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-amd64)
 
-[darwin-arm64 скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
+darwin-arm64 [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-darwin-arm64)
 
 - **Linux** [скачать](https://github.com/purkhanov/web-app-bridge/raw/refs/heads/main/bin/webapp-bridge-linux)
 
-Скачайте файл web-app-bridge и запустите файл:
+запуск:
 ```bash
 # Windows
-.\web-app-bridge-windows.exe --token YOUR_BOT_TOKEN --port <PORT>
+.\webapp-bridge-windows.exe --token YOUR_BOT_TOKEN --port PORT
 
 # macOS (Intel)
-mv web-app-bridge-darwin-amd64 web-app-bridge
+mv webapp-bridge-darwin-amd64 web-app-bridge
 chmod +x web-app-bridge
-./web-app-bridge-darwin-amd64 --token YOUR_BOT_TOKEN --port <PORT>
+./webapp-bridge-darwin-amd64 --token YOUR_BOT_TOKEN --port PORT
 
 # macOS (Apple Silicon/M1/M2)
-mv web-app-bridge-darwin-arm64 web-app-bridge
+mv webapp-bridge-darwin-arm64 web-app-bridge
 chmod +x web-app-bridge
-./webapp-bridge-darwin-arm64 --token YOUR_BOT_TOKEN --port <PORT>
+./webapp-bridge-darwin-arm64 --token YOUR_BOT_TOKEN --port PORT
 
 # Linux
-chmod +x web-app-bridge-linux
-./webapp-bridge-linux --token YOUR_BOT_TOKEN --port <PORT>
+chmod +x webapp-bridge-linux
+./webapp-bridge-linux --token YOUR_BOT_TOKEN --port PORT
 ```
 
 Способ 2: Сборка из исходников
